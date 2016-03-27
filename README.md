@@ -1,14 +1,21 @@
 # extract_tool
 Install device-tree-compiler
+```bash
 sudo apt-get install device-tree-compiler
+```
 
 Download split_bootimg.pl
+```bash
 sudo cp split_bootimg.pl /usr/local/bin
 sudo chmod +x /usr/local/bin/split_bootimg.pl
+```
 
-Example
+Example:
+```bash
 split_bootimg.pl boot.img
+```
   output:
+  ```bash
   Page size: 2048 (0x00000800)
   Kernel size: 9593928 (0x00926448)
   Ramdisk size: 4915330 (0x004b0082)
@@ -21,3 +28,4 @@ split_bootimg.pl boot.img
   Writing recovery.img-kernel ... complete.
   Writing recovery.img-ramdisk.gz ... complete.
   Writing recovery.img-dt.img ... complete.
+  ```
