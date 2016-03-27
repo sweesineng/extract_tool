@@ -14,7 +14,7 @@ Example:
 ```bash
 split_bootimg.pl boot.img
 ```
-  output:
+Output:
   ```bash
   Page size: 2048 (0x00000800)
   Kernel size: 9593928 (0x00926448)
