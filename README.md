@@ -6,7 +6,7 @@ Download split_bootimg.pl
 sudo cp split_bootimg.pl /usr/local/bin
 sudo chmod +x /usr/local/bin/split_bootimg.pl
 
-Example:
+Example
 split_bootimg.pl boot.img
   output:
   Page size: 2048 (0x00000800)
